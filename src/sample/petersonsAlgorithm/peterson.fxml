@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.petersonsAlgorithm.ControllerPeterson">
+   <children>
+      <Button fx:id="processOneButton" layoutX="576.0" layoutY="44.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="155.0" text="Process one" />
+      <Button fx:id="processTwoButton" layoutX="576.0" layoutY="168.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="155.0" text="Process two" />
+      <TextArea fx:id="textArea" layoutX="27.0" layoutY="27.0" prefHeight="719.0" prefWidth="512.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>
